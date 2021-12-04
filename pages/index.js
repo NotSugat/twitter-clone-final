@@ -5,7 +5,7 @@ import { getProviders, getSession, useSession } from 'next-auth/react'
 import Login from '../components/Login'
 import Modal from '../components/Modal'
 import { useRecoilState } from 'recoil'
-import { modalState } from '../atoms/ModalAtom'
+import { modalState } from '../atoms/modalAtom'
 import Widgets from '../components/Widgets'
 
 export default function Home({ trendingResults, followResults, providers }) {
